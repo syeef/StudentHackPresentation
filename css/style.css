@@ -1,0 +1,46 @@
+/* Import google fonts*/
+@import url(http://fonts.googleapis.com/css?family=Lilita+One);
+
+* {
+	/*display: block;*/
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Lilita One', cursive;
+  background: #168EDE;
+  color: #FFF;
+  text-align: center;
+}
+
+.index {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 800px;
+	font-size: 100px;
+}
+
+#details {
+	font-size: 50px;
+	display: none;
+}
+
+.links {
+	text-decoration: none;
+	font-size: 30px;
+}
+
+a {
+	color: #FFF;
+}
+a:visited {
+	color: #FFF;
+}
