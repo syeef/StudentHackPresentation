@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StudentHack Presentation</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Livereload -->
+    <script src="http://localhost:35729/livereload.js"></script>
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link rel="author" href="humans.txt">
+  </head>
+  <body>
+    <div class="page">
+        <div class="index">
+            <p>AND FOOD</p>
+            <span id="details">
+            * Lots of free food<br/>
+            <a class='links' href='5.html'>next</a>
+        </span>
+        </div>
+    </div>
+
+    <script src="js/main.min.js"></script>
+    <script>
+
+$(document.body).click(function() {
+  $( "#details" ).fadeIn( "slow", function() {
+    // Animation complete
+  });
+});
+
+
+</script>
+  </body>
+</html>
