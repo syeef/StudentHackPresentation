@@ -21,9 +21,9 @@
             <span id="details">
             * studenthack.com<br/>
             * facebook.com/StudentHack<br/>
-            <a class='links' href='index.html'>end</a>
         </span>
         </div>
+        <a class='links' href='index.html'>end</a>
     </div>
 
     <script src="js/main.min.js"></script>
@@ -31,6 +31,9 @@
 
 $(document.body).click(function() {
   $( "#details" ).fadeIn( "slow", function() {
+    // Animation complete
+  });
+  $( ".links" ).fadeIn( "slow", function() {
     // Animation complete
   });
 });

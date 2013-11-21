@@ -21,9 +21,9 @@
             <span id="details">
             February 8th - 9th<br/>
             Manchester Metropolitan University Business School<br/>
-            <a class='links' href='1.html'>next</a>
         </span>
         </div>
+        <a class='links' href='1.html'>next</a>
     </div>
 
     <script src="js/main.min.js"></script>
@@ -31,6 +31,9 @@
 
 $(document.body).click(function() {
   $( "#details" ).fadeIn( "slow", function() {
+    // Animation complete
+  });
+  $( ".links" ).fadeIn( "slow", function() {
     // Animation complete
   });
 });

@@ -20,9 +20,9 @@
             <p>AND FOOD</p>
             <span id="details">
             * Lots of free food<br/>
-            <a class='links' href='5.html'>next</a>
         </span>
         </div>
+        <a class='links' href='5.html'>next</a>
     </div>
 
     <script src="js/main.min.js"></script>
@@ -30,6 +30,9 @@
 
 $(document.body).click(function() {
   $( "#details" ).fadeIn( "slow", function() {
+    // Animation complete
+  });
+  $( ".links" ).fadeIn( "slow", function() {
     // Animation complete
   });
 });

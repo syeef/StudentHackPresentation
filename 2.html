@@ -22,9 +22,9 @@
             * A Hackathon designed for students!<br/>
             * A meeting of computer-enthusiasts held for the specific purpose of hacking together a website or other technology.
             <br/>
-            <a class='links' href='3.html'>next</a>
         </span>
         </div>
+        <a class='links' href='3.html'>next</a>
     </div>
 
     <script src="js/main.min.js"></script>
@@ -32,6 +32,9 @@
 
 $(document.body).click(function() {
   $( "#details" ).fadeIn( "slow", function() {
+    // Animation complete
+  });
+  $( ".links" ).fadeIn( "slow", function() {
     // Animation complete
   });
 });

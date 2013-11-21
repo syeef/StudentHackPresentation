@@ -22,9 +22,9 @@
             * Syeef Karim<br/>
             * MMU Student<br/>
             * An organiser of StudentHack along with Bilawal Hameed<br/>
-            <a class='links' href='2.html'>next</a>
         </span>
         </div>
+        <a class='links' href='2.html'>next</a>
     </div>
 
     <script src="js/main.min.js"></script>
@@ -32,6 +32,9 @@
 
 $(document.body).click(function() {
   $( "#details" ).fadeIn( "slow", function() {
+    // Animation complete
+  });
+  $( ".links" ).fadeIn( "slow", function() {
     // Animation complete
   });
 });

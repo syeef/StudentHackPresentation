@@ -21,9 +21,9 @@
             <span id="details">
             * February 8th - February 9th (Prepare for an 'all-nighter')<br/>
             * Tickets are only £9<br/>
-            <a class='links' href='7.html'>next</a>
         </span>
         </div>
+        <a class='links' href='7.html'>next</a>
     </div>
 
     <script src="js/main.min.js"></script>
@@ -31,6 +31,9 @@
 
 $(document.body).click(function() {
   $( "#details" ).fadeIn( "slow", function() {
+    // Animation complete
+  });
+  $( ".links" ).fadeIn( "slow", function() {
     // Animation complete
   });
 });

@@ -23,9 +23,9 @@
             * 2nd Place: A Pebble Smartwatch<br/>
             * 3rd Place: A Coin<br/>
             * More Prizes will be announced on the day<br/>
-            <a class='links' href='6.html'>next</a>
         </span>
         </div>
+        <a class='links' href='6.html'>next</a>
     </div>
 
     <script src="js/main.min.js"></script>
@@ -33,6 +33,9 @@
 
 $(document.body).click(function() {
   $( "#details" ).fadeIn( "slow", function() {
+    // Animation complete
+  });
+  $( ".links" ).fadeIn( "slow", function() {
     // Animation complete
   });
 });
